@@ -51,6 +51,9 @@ pic{
 main desc{
     margin-left: 1.5rem;
 }
+desc a{
+    text-decoration: none;
+}
 desc h1{
     margin-top: 1.5rem;
     color: #fff;
@@ -131,10 +134,11 @@ creator div{
     font-weight: 400;
     font-size: 1rem;
 }
-creator name{
+creator a{
     color: #FFFFFF;
+    text-decoration: none;
 }
-creator name:hover{
+creator a:hover{
     color: #00FFF8;
     cursor: pointer;
     transition-duration: 0.3s;
@@ -194,6 +198,9 @@ creator name:hover{
     /* メインテキスト */
     main desc{
         margin-left: 1.5rem;
+    }
+    desc a{
+        text-decoration: none;
     }
     desc h1{
         margin-top: 1.5rem;
@@ -275,10 +282,11 @@ creator name:hover{
         font-weight: 400;
         font-size: 0.9375rem;
     }
-    creator name{
+    creator a{
         color: #FFFFFF;
+        text-decoration: none;
     }
-    creator name:hover{
+    creator a:hover{
         color: #00FFF8;
         cursor: pointer;
         transition-duration: 0.3s;
